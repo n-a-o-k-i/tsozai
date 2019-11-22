@@ -165,19 +165,19 @@ void PlayerMove(int location[2], Area room[5][5])
       */
         location[0] -= 1; //移動
         printf("\n<ログ>上に移動しました。\n");
-  printf("============================================\n");
-  printf("現在の部屋の状況:%d\n",room[location[0]][location[1]].kind);
-  printf("[プレイヤー]HP:%d\t", player.mental_point);
-  printf("自信度:%d\n", player.player_hp);
-  printf("============================================\n");
+	printf("============================================\n");
+	printf("現在の部屋の状況:%d\n",room[location[0]][location[1]].kind);
+	printf("[プレイヤー]HP:%d\t", player.mental_point);
+	printf("自信度:%d\n", player.player_hp);
+	printf("============================================\n");
 
-  /*上記のコメントアウトの理由と同じ
+	/*上記のコメントアウトの理由と同じ
       }
       else
       {
         printf("\n壁です。\n");
       }
-  */
+	*/
     }
     else
     {
@@ -205,18 +205,18 @@ void PlayerMove(int location[2], Area room[5][5])
       */
         location[0] += 1;
         printf("\n<ログ>下に移動しました。\n");
-  printf("============================================\n");
-  printf("現在の部屋の状況:%d\n",room[location[0]][location[1]].kind);
-  printf("[プレイヤー]HP:%d\t", player.mental_point);
-  printf("自信度:%d\n", player.player_hp);
-  printf("============================================\n");
-  /*
+	printf("============================================\n");
+	printf("現在の部屋の状況:%d\n",room[location[0]][location[1]].kind);
+	printf("[プレイヤー]HP:%d\t", player.mental_point);
+	printf("自信度:%d\n", player.player_hp);
+	printf("============================================\n");
+	/*
       }
       else
       {
         printf("\n壁です。\n");
       }
-  */
+	*/
     }
     else
     {
@@ -243,18 +243,18 @@ void PlayerMove(int location[2], Area room[5][5])
       */
         location[1] -= 1;
         printf("\n<ログ>左に移動しました。\n");
-  printf("============================================\n");
-  printf("現在の部屋の状況:%d\n",room[location[0]][location[1]].kind);
-  printf("[プレイヤー]HP:%d\t", player.mental_point);
-  printf("自信度:%d\n", player.player_hp);
-  printf("============================================\n");
-  /*
+	printf("============================================\n");
+	printf("現在の部屋の状況:%d\n",room[location[0]][location[1]].kind);
+	printf("[プレイヤー]HP:%d\t", player.mental_point);
+	printf("自信度:%d\n", player.player_hp);
+	printf("============================================\n");
+	/*
       }
       else
       {
         printf("\n壁です。\n");
       }
-  */
+	*/
     }
     else
     {
@@ -281,18 +281,18 @@ void PlayerMove(int location[2], Area room[5][5])
       */
         location[1] += 1;
         printf("\n<ログ>右に移動しました。\n");
-  printf("============================================\n");
-  printf("現在の部屋の状況:%d\n",room[location[0]][location[1]].kind);
-  printf("[プレイヤー]HP:%d\t", player.mental_point);
-  printf("自信度:%d\n", player.player_hp);
-  printf("============================================\n");
-  /*
+	printf("============================================\n");
+	printf("現在の部屋の状況:%d\n",room[location[0]][location[1]].kind);
+	printf("[プレイヤー]HP:%d\t", player.mental_point);
+	printf("自信度:%d\n", player.player_hp);
+	printf("============================================\n");
+	/*
       }
       else
       {
         printf("\n壁です。\n");
       }
-  */
+	*/
     }
     else
     {
